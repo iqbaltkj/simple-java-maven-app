@@ -11,6 +11,7 @@ pipeline {
             }
             step {
                 sh 'file 37'
+            }
         }
         stage('Test') {
             steps {
